@@ -7,7 +7,8 @@ import  { RecuperacaoSenhaComponent } from './recuperacao-senha/recuperacao-senh
 
 const APP_ROUTES: Routes = [
     { path: '', component: LoginComponent },
-    { path: 'recuperacao-senha', component: RecuperacaoSenhaComponent }
+    { path: 'recuperacao-senha', component: RecuperacaoSenhaComponent },
+    { path: 'login', component: LoginComponent }
 ];
 
     export const Routing: ModuleWithProviders = RouterModule.forRoot(APP_ROUTES);
