@@ -7,6 +7,7 @@ import { LoginComponent } from './login/login.component';
 import { RecuperacaoSenhaComponent } from './recuperacao-senha/recuperacao-senha.component';
 import { Routing } from './app.routing';
 import { MenuPrincipalComponent } from './menu-principal/menu-principal.component';
+import { UsuariosComponent } from './usuarios/usuarios.component';
 
 
 @NgModule({
@@ -14,7 +15,8 @@ import { MenuPrincipalComponent } from './menu-principal/menu-principal.componen
     AppComponent,
     LoginComponent,
     RecuperacaoSenhaComponent,
-    MenuPrincipalComponent
+    MenuPrincipalComponent,
+    UsuariosComponent
   ],
   imports: [
       BrowserModule,
