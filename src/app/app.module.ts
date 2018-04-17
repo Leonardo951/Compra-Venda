@@ -27,7 +27,8 @@ import { UsuariosComponent } from './usuarios/usuarios.component';
       AppComponent,
       LoginComponent,
       RecuperacaoSenhaComponent,
-      MenuPrincipalComponent
+      MenuPrincipalComponent,
+      UsuariosComponent
   ]
 })
 export class AppModule { }
