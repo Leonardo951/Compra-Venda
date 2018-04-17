@@ -6,13 +6,15 @@ import { AppComponent } from './app.component';
 import { LoginComponent } from './login/login.component';
 import { RecuperacaoSenhaComponent } from './recuperacao-senha/recuperacao-senha.component';
 import { Routing } from './app.routing';
+import { MenuPrincipalComponent } from './menu-principal/menu-principal.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
     LoginComponent,
-    RecuperacaoSenhaComponent
+    RecuperacaoSenhaComponent,
+    MenuPrincipalComponent
   ],
   imports: [
       BrowserModule,
@@ -22,7 +24,8 @@ import { Routing } from './app.routing';
   bootstrap: [
       AppComponent,
       LoginComponent,
-      RecuperacaoSenhaComponent
+      RecuperacaoSenhaComponent,
+      MenuPrincipalComponent
   ]
 })
 export class AppModule { }
