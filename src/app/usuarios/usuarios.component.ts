@@ -14,6 +14,10 @@ export class UsuariosComponent implements OnInit {
   constructor( private usuarioservice: UsuariosService) {
 
       this.usuarios = this.usuarioservice.getUsuarios();
+
+      function reload() {
+          location.reload();
+      }
   }
 
   ngOnInit() {

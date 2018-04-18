@@ -10,6 +10,4 @@ $email  = $_POST['email'];
 $senha  = $_POST['senha'];
 $perfil = $_POST['perfil'];
 
-$passo = echo '$nome, $email';
-
-return $passo;
+return true;
