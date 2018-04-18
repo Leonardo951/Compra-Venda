@@ -4,18 +4,20 @@
 
     <div class="card card-container">
 
-        <form class="form-signin" action="login.php" method="POST">
+        <form class="form-signin" method="POST">
             <span id="reauth-email" class="reauth-email"></span>
 
-            <input type="email" id="inputEmail" class="form-control" placeholder="E-mail" required autofocus>
-            <input type="password" id="inputPassword" class="form-control" placeholder="Senha" required>
+            <input type="email" id="inputEmail" name="email" class="form-control" placeholder="E-mail" required autofocus>
+            <input type="password" id="inputPassword" name="senha" class="form-control" placeholder="Senha" required>
 
             <div id="relembre" class="checkbox">
                 <label>
                     <input type="checkbox" value="Lembre-me"> Lembre-me
                 </label>
             </div>
-            <button class="btn btn-lg btn-primary btn-block btn-signin" type="submit">Entrar</button>
+            <a href="../menu-principal/">
+                <button class="btn btn-lg btn-primary btn-block btn-signin" type="submit">Entrar</button>
+            </a>
         </form>
 
         <a href="..\recuperacao-senha\" class="esqueceu-senha">
